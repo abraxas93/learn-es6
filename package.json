@@ -1,0 +1,23 @@
+{
+  "name": "learn-es6",
+  "version": "1.0.0",
+  "description": "simple es6 lessons ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abraxas93/learn-es6.git"
+  },
+  "keywords": [
+    "es6",
+    "babel"
+  ],
+  "author": "vertix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abraxas93/learn-es6/issues"
+  },
+  "homepage": "https://github.com/abraxas93/learn-es6#readme"
+}
