@@ -1,20 +1,9 @@
-var newarr = [1, 2, 3];
-newarr.map(n => console.log(n + 1));
+const fs = require('fs');
+const path = require('path');
 
-class Polygon {
-    constructor (height, width) {
-        this.height = height;
-        this.width = width;
-    }
-
-    get area () {
-        return this.calcArea();
-    }
-    calcArea () {
-        return this.height * this.width;
-    }
-}
-
-const shape = new Polygon(23, 44);
-
-console.log(shape.area);
+fs.readdir(path.join(__dirname, 'lessons'), (err, files) => {
+    if (err) console.log(err);
+    files.forEach((file) => {        
+        require('./lessons/' + file);
+    });
+});
