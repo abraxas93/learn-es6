@@ -1,0 +1,1 @@
+console.log('Lesson 7: ES6 Objects');
