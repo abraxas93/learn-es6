@@ -1,4 +1,4 @@
-console.log('Lesson №3: Template strings');
+console.log('Lesson №4: Template strings');
 
 
 function doGreetings (name) {

@@ -1,4 +1,4 @@
-console.log('Lesson №5: For of cycle');
+console.log('Lesson №6: For of cycle');
 
 let browsers = ['opera','safari','chrome','IE'];
 
