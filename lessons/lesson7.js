@@ -34,4 +34,4 @@ let car = createCar('prop', 'newProp');
 
 console.log(car.SOMEPROP); //not working
 console.log(car.custom); 
-console.log(car.getsomeProp); //not working
+console.log(car.getsomeProp); //not working now!!!
