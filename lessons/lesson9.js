@@ -1,4 +1,4 @@
-console.log('Lesson 8: Inheritance');
+console.log('Lesson 9: Inheritance');
 
 class Task {
     constructor(title = Task.getDefaultTitle()) {

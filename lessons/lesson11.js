@@ -1,0 +1,1 @@
+console.log('Lesson 11: destruction asign objects');
