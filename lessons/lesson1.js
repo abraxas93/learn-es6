@@ -42,4 +42,5 @@ person.greet();
 person.sayHi();
 person.wait();
 
+
 /* arrow function can't be used with bind(), call(), apply() */
