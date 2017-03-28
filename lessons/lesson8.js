@@ -4,7 +4,7 @@ class Task {
     constructor(title = Task.getDefaultTitle()) {
         this._title = title;
         this._done = false;
-        Task.count += 1;
+        Task.count += 1; // increment static property
         console.log(`Task created with title:${this._title}`);
     }
 

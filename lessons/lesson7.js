@@ -9,7 +9,7 @@ let obj = {
     firstName,
     surName,
     age,
-    sayHello () {
+    sayHello() {
         console.log(`Hello my name is ${this.firstName}`);
     }
 };
@@ -17,21 +17,21 @@ let obj = {
 console.log(obj);
 obj.sayHello();
 
-function createCar (property,value) {
-    return {       
+function createCar(property, value) {
+    return {
         [ property.toUpperCase() ]: value,
-        [ 'get' + property ] () {
+        [ 'get' + property ]() {
             console.log('New method ');
         },
-        get custom () {
+        get custom() {
             return 'im custom propery';
         }
     };
 }
 
 console.log(createCar('someProp', 2342));
-let car = createCar('prop', 'newProp');
+let car = createCar('someProp', 'newProp');
 
-console.log(car.SOMEPROP); //not working
-console.log(car.custom); 
-console.log(car.getsomeProp); //not working now!!!
+console.log(car.SOMEPROP);
+console.log(car.custom);
+console.log(car.getsomeProp('awesome'));

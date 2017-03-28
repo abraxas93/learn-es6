@@ -14,13 +14,13 @@ let numbers = [1, 2, 3];
 
 let [one, two, three, four, five = 5] = numbers;
 
-console.log(one, two, three, four, five);
+console.log(one, two, three, four, five); // => 1 2 3 undefined 5
 
 /* let [One, , Two] = numbers; */
 
 let [on, ...rest] = numbers;
 
-console.log(on, rest);
+console.log(on, rest); // => 1 [ 2, 3 ]
 
 let nums = [1, 2, 3, [4, 5]];
 
@@ -31,7 +31,7 @@ function computeScore([low, mid]) {
     console.log(low, mid);
 }
 
-computeScore([3, 5]);
+computeScore([3, 5]); // => 3 5
 
 function initNums() {
     return [7, 8, 9];
@@ -39,4 +39,4 @@ function initNums() {
 
 let [foo, foo1, foo2] = initNums();
 
-console.log(foo, foo1, foo2);
+console.log(foo, foo1, foo2); // => 7 8 9
