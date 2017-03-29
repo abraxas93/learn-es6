@@ -5,13 +5,11 @@ console.log('Lesson 17: generators 2');
 //     console.log(`Result is: ${result}`);
 // }
 
-
 // function * generator() {
 //     let array = [yield, yield, yield];
 //     console.log(`Result is: ${array}`);
 //     console.log(typeof array);
 // }
-
 
 // function * generator() {
 //     yield 42;
@@ -28,6 +26,7 @@ function * generator() {
         yield 1;
         yield 2;
         yield 3;
+        yield 4;
     } catch (e) {
         console.log(e);
     }
